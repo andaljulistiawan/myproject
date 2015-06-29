@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load i18n staticfiles mezzanine_tags blog_tags %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title_wrapper%}
+{% endblock %}
+{% block all_content %}
+{% block left_wrapper%}
+{% endblock %}
+
+{% block main_wrapper%}
+
+{% endblock %}
+
+{% block right_wrapper%}
+{% endblock %}
+
+		<script src="static/js/jquery.scrolly.min.js"></script>
+<!-- *****************************************************************************************************************
+	 HEADERWRAP
+	 ***************************************************************************************************************** -->
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+				<br><br><br><br><br><br><br>
+					<h1>Andal Julistiawan</h1>
+					<hr class="star-light">
+					<h3><span class="skills"><i>The true beauty of music is that it connects people.</i> </span></h3>
+						<h2><a href="#twrap" class="button circled scrolly">GO!</a></h2>
+					<br><br><br><br><br>
+				</div>
+				
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /headerwrap -->	 
+	<!-- *****************************************************************************************************************
+	 TESTIMONIALS
+	 ***************************************************************************************************************** -->
+	 <div id="twrap">
+	 	<div class="container centered">
+	 		<div class="row">
+	 			<div class="col-lg-8 col-lg-offset-2">
+				<br><br><br>
+	 			<i class="fa fa-comment-o"></i>
+				<p>Hello there, my name is Andal Julistiawan. I was born and raised at Bogor, Indonesia. Currently I'm studying Informatics Engineering in Gunadarma University. Thanks for visiting my website, I hope my website gave you all the information you needed. Enjoy!!!</p>
+	 			<h4><br/>Andal Julistiawan</h4>
+	 			<p>Drummer - Dreamer</p>
+				<br><br><br><br><br><br><br><br><br><br><br>
+	 			</div>
+	 		</div><! --/row -->
+	 	</div><! --/container -->
+	 </div><! --/twrap -->
+	 
+	
+{% endblock %}
